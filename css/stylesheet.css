@@ -8,9 +8,10 @@
 }
 
 body {
-	background-image: url("../img/backgroundTest.jpg");
+	background-image: url("../img/background2.png");
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-color: black;
 }
 
 li, a {
@@ -26,7 +27,7 @@ header {
 	justify-content: space-between;
 	align-items: center;
 	padding: 30px 10%;
-	background-color: lightslategray;
+	background-color: rgba(12, 155, 185, 0.8);
 }
 
 .logo {
@@ -50,7 +51,7 @@ header {
 }
 
 .nav_links li a:hover {
-	color: darkturquoise
+	color: cyan;
 }
 
 button {
@@ -128,7 +129,7 @@ height:100%;
   position:relative;
   top:0;
   left:0;
-	background-color: slategray;
+	background-color: rgba(12, 155, 185, 0.8);
 }
 .footer #cont{
   position:relative;
@@ -152,7 +153,7 @@ height:100%;
 }
 
 .footer h3:hover{
-	color: darkturquoise;
+	color: rgb(12, 155, 185);
 }
 
 
