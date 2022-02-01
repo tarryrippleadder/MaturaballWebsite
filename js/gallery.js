@@ -65,7 +65,7 @@ function changeImg(changeDir) {
 	let getImgWindow = document.querySelector(".img-window");
 	let newImg = document.createElement("img");
 	getImgWindow.appendChild(newImg);
-	
+	x
 	let calcNewImg;
 	if(changeDir === 1) {
 		calcNewImg = getLatestOpenedImg + 1;
