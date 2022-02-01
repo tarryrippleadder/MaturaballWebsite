@@ -81,6 +81,7 @@ function changeImg(changeDir) {
 		}
 	}
 	
+	
 	newImg.setAttribute("src", "../img/img" + calcNewImg + ".jpg");
 	newImg.setAttribute("id", "current-img");	
 
