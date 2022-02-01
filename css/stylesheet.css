@@ -7,7 +7,14 @@
 	padding: 0;
 }
 
-body {
+.bodyCommon {
+	background-image: url("../img/background3.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: black;
+}
+
+.bodyMain {
 	background-image: url("../img/background2.png");
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -31,9 +38,9 @@ header {
 }
 
 .logo {
-	background-color: lightslategray;
+	background: transparent;
 	cursor: pointer;
-	height: 50px; width: 50px; object-fit: contain
+	height: 50px; width: 100px; object-fit: contain;
 } 
 
 .nav_links {
@@ -70,6 +77,35 @@ button:hover {
 	background-color: turquoise;
 	opacity: 0.8;
 }
+
+.mainLogoContainer {
+	margin-top: 5%;
+	width: 100%;
+	height: 100%;
+	text-align: center;	
+}
+
+.mainLogo {
+	width: 800px;
+    height: auto;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+
+/*google maps*/
+
+#map {
+	margin-top: 5%;
+	width: 100%;
+	height: 100%;
+	text-align: center;	
+}
+
+
+
+
+/*footer*/
 
 .wrapper-gallery {
 	margin: 0 20vw;

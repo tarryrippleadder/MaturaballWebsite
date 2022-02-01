@@ -2,59 +2,46 @@
 <html>
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Mottofotos</title>
+<title>Location</title>
 <link rel="icon" href="../img/icon.ico">
-<link rel="stylesheet" href="../css/reset.css">
 <link rel="stylesheet" href="../css/stylesheet.css">
-<link rel="stylesheet" href="../css/gallery.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
-
 </head>
 
 <body class="bodyCommon">
-	
+		
 	<header>
-		<img class="logo" src="../img/logoTest.png" alt="logo">
+		<img class="logo" src="../img/logo.png" alt="logo">
 		<nav>
 			<ul class="nav_links">
 				<li><a href="index.html">Home</a></li>
 				<li><a href="mottofotos.html">Mottofotos</a></li>
 				<li><a href="#">Sponsoren</a></li>
-				<li><a href="#">Social Media</a></li>
+				<li><a href="location.html">Location</a></li>
 				<li><a href="#">asdf</a></li>
 			</ul>
 		</nav>
 		<a class="Ballkarten" href="#"><button>Ballkarten</button></a>
-	</header>
+	</header>	
 	
-	<section id="index-gallery" class="wrapper-gallery">
-		<p>Absolventen und Absolventinnen 2022</p>
-		<h2>5 HAHE</h2>
-		
-		<div class="gallery-img img1">
-			<div><a href="#">Ungustl 1</a></div>
-		</div>
-			
-		<div class="gallery-img img2">
-			<div><a href="#">Ungustl 2</a></div>
-		</div>
-				
-		<div class="gallery-img img3">
-			<div><a href="#">Ungustl 3</a></div>
-		</div>
-				
-		<div class="gallery-img img4">
-			<div><a href="#">Ungustl 4</a></div>
-		</div>
-				
-		<div class="gallery-img img5">
-			<div><a href="#">Ungustl 5</a></div>
-		</div> 
-						
-	</section>
 	
-		<div class="footer">
+	<div id="map">
+	
+	</div>
+	
+	<script>
+		function initMap() {
+			var location = {lat: 47.217230, lng: 15.622630};
+			var map = new google.maps.Map(document.getElementById("map"), {
+				zoom: 4,
+				center: location	
+			});
+		}
+	</script>
+	
+	
+	
+	<div class="footer">
 		<div id="button"></div>
 				<div id="container">
 					<div id="cont">
@@ -65,7 +52,6 @@
 		</div>
 	</div>
 	
-	<script src="../js/gallery.js"></script>
 	
 </body>
 </html>
